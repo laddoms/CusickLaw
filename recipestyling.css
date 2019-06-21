@@ -1,0 +1,45 @@
+header, section, footer, aside, nav, figure, figcaption {display: block;}
+body 
+	{
+		
+		background-color:#343756;
+		font-family:'Georgia', cursive; californian fb, serif;
+		color:black; line-height: 1em; margin: 20px; font-size: 1em;
+	}
+.wrapper
+	{
+		height:1200px; width:700px; background-color:white;
+	}
+header 
+	{
+		line-height: 1.6em; height: 160px; 
+	}
+h1
+	{
+		font-family: 'Georgia', cursive; text-indent: 0px; width: 940px; height:30px; margin: 0px 2px 5px 2px; padding: 10px
+	}
+nav 
+	{
+		clear: both; color: black; background-color: #EAF0F4; opacity:.8; height: 50px; width: 550px;
+		border-top: 3px solid gray; border-bottom: 3px solid gray;
+	}
+nav ul 
+	{
+		margin: 0px; padding: 5px 0px 5px 10px;
+	}
+nav li 
+	{
+		display: inline; margin-right: 5px; border-left: 1px solid white;  padding-left: 10px;
+	}
+nav li a 
+	{
+		color: black;
+	}
+nav li a:hover, nav li a.current 
+	{
+		color:white ;
+	}
+li 
+	{
+		list-style-type: square;
+	}

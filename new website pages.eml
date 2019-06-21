@@ -1,0 +1,133 @@
+Return-Path: <elizabethcusick@ymail.com>
+Delivered-To: addoms@comcast.net
+Received: from dovdir4-asc-03o.email.comcast.net ([96.114.154.140])
+	by dovback4-asc-26o.email.comcast.net with LMTP id yFmcGRmPPlqlMAAAu861dA
+	for <addoms@comcast.net>; Sat, 23 Dec 2017 17:15:05 +0000
+Received: from dovpxy-asc-02o.email.comcast.net ([96.114.154.140])
+	by dovdir4-asc-03o.email.comcast.net with LMTP id aKx8GRmPPlpAPQAAAgbWQQ
+	; Sat, 23 Dec 2017 17:15:05 +0000
+Received: from resimta-po-12v.sys.comcast.net ([96.114.154.140])
+	by dovpxy-asc-02o.email.comcast.net with LMTP id OM0mOBaPPloXCwAA2OtSng
+	; Sat, 23 Dec 2017 17:15:05 +0000
+Received: from sonic307-9.consmr.mail.gq1.yahoo.com ([98.137.64.33])
+	by resimta-po-12v.sys.comcast.net with SMTP
+	id SnO3eaQozBagrSnO4el5q9; Sat, 23 Dec 2017 17:15:05 +0000
+X-CAA-SPAM: 00000
+X-Authority-Analysis: v=2.2 cv=f7c4PK6M c=1 sm=1 tr=0
+ a=4mF/YIJfczw4pzRqn8vVYw==:117 a=x7bEGLp0ZPQA:10 a=3EIK0o0hSGsA:10
+ a=khwyK8DuSVkA:10 a=ocR9PWop10UA:10 a=BvPWh2Rn2KLacprMO7cA:9
+ a=TCw08qhngt0DhX7i:21 a=nELpAeJMjRSb7x1e:21 a=QEXdDO2ut3YA:10
+ a=tOfTDE02GoO7S0xp:21 a=rRjQp3VgLODo6MTv:21 a=shZHyX5zwENzQGfP:21
+ a=_W_S_7VecoQA:10
+X-Xfinity-Message-Heuristics: IPv6:N;TLS=1;SPF=1;DMARC=P
+Authentication-Results: resimta-po-12v.sys.comcast.net;
+	dkim=pass header.d=ymail.com header.b=VyI7NUKm
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ymail.com; s=s2048; t=1514049303; bh=fADjXWqYKMz2u90U3gKqdpcW7b9T/lcJmxOFx6vJmVw=; h=Date:From:To:Subject:References:From:Subject; b=VyI7NUKmq0xauvUskQe4wOUXtX6BQ3/rdtyiuw428CADO24NSvk7LlXtOgyx89hhMXz960oNesWyKQk4lwT5CSstcwapXK6lE/2QDg8W0UD7cUZV7IcUcUyzT3V1sOJsioMZQzLlDed6xBhDA2XxFJJZIOc2bl8HsCA9C1jqt/MAY8nZ3ZbEXhK8kBTlwnNa3ajGtiGXR/yeCugUbhJY29gwm8umrxKqx43rVTZOwMgDLa52l1aYXAbR4A38rNjfwOqFE7ZcV4ZRCDd5wsLQtc4Ahdute9/6U2SG37tZzAoaYyk5zu1ZMjmcgoIL4LXh5sgf7dKdX+N1Tapu0DpTxQ==
+X-YMail-OSG: RG9bnG8VM1m9Zn6zi1NzLpdAsDnqk.VRCSHjb8Lzasla9Y1adb_W9WSCulCVdf5
+ I2iFjRm0_CLkQ4KW9IyA61fsYEHsJ3hVWoNBZV8VST.W.Vpt.1lRcAp8Cm4itTCuqc1iGU.dfz.W
+ I5ssPy5Ne8rnjHe3wv0tCUng7N5JGN.J_Eng9id9t.z.y11LfX8fK0kV0GDaHgBEl7qfqlkeEd9H
+ EzOPsq5xTT.nO7LH3YYGtf2UX7aqIL2xqk4MOnqXk5UZw_VlrqcU_naEZJtkdDPi86SwtlZn5Rf8
+ thybSctJjcoeOywIp94bXYOfwK5998urPdqsNGAg95_GhrSJH218w0T9VscViSSLh7tLlHnlM.uC
+ MTlhRpIx8CNQ.5WneXf7UGA0u6dKQZ_mKtjc2Qe1ZnIJsrj89uHwN4dVobr9SgJsuYgOFyDEdKu8
+ cMyCMdzZ_qCdJY8TSB8SRSF_QTGy5X249ysJsC2ruKgpPL_OaI.Sb8rlo_wureRa.K25yYEHWyqO
+ dP0fJdLyHus9hga1ExFonP.Or8LlfwDL9zrxiqDfba08-
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic307.consmr.mail.gq1.yahoo.com with HTTP; Sat, 23 Dec 2017 17:15:03 +0000
+Date: Sat, 23 Dec 2017 17:14:59 +0000 (UTC)
+From: Elizabeth Cusick <elizabethcusick@ymail.com>
+To: Laurie Addoms <addoms@comcast.net>
+Message-ID: <237440860.3080833.1514049299897@mail.yahoo.com>
+Subject: new website pages
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3080832_2038377909.1514049299895"
+References: <237440860.3080833.1514049299897.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.11051 YMailNorrin Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Content-Length: 5565
+X-CMAE-Envelope: MS4wfM7hD/3vSudZhR9m6aVsvm4Iv0Kd3Kb34NNr+tOqPXXutnvzhme2VKD6FWe1B+Y8l1JcF86Ec5H/Z6AU9+seRaxrocJdp1cE4Cco5Wu/OqP1zinZO4oR
+ RxtTokGPVkzjpNk599OlE5TiLqdKt1dPQyGTkamRTbicnvvPLh/lERLm+wL0TJc54yi99noZqrX8UBVHJxBuMzU0djEKe2nB6bI=
+X-Antivirus: Avast (VPS 171224-0, 12/24/2017), Inbound message
+X-Antivirus-Status: Clean
+
+------=_Part_3080832_2038377909.1514049299895
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+On the probate one, delete the 2nd sentence and change it to "In Massachuse=
+tts, if an estate is less than $25,000, not including the value of a car, a=
+ simple process called "voluntary administration" can be used."
+Under deeds, change from "Itmust be filed with your county clerk or tax ass=
+essor collector, must bewitnessed by a legal official and its contents must=
+ be accurate. " to"=C2=A0 "It must be filed with the Registry of Deeds for =
+the county that the property is located in and must be witnessed by a Notar=
+y Public."
+For the "homesteads" section, delete what you have and change it to this:
+"A homestead is a legal document that is filed in the Registry of Deeds to =
+protect the home in which you live from claims by creditors.=C2=A0 It can p=
+rotect the value of real estate up to $500,000."=C2=A0 Take out the whole n=
+ext section about "Property Taxes" because I don't think it applies in Mass=
+.
+Also, take out the whole Civil Litigation part because I don't like it.=C2=
+=A0 lol
+I did buy the domain name from the company that you told me to get it from =
+and I think my password is salsa1957 (may have a capital S)--I use the same=
+ password for everything.
+I hope you have a very nice Christmas.=C2=A0 I appreciate all the work you =
+have been doing and when we put it up I want to announce it on Facebook so =
+people will look at it and I want to mention you as the web designer so may=
+be you can get some work, if that's ok with you.
+Liz
+------=_Part_3080832_2038377909.1514049299895
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div style=3D"font-family:courier new, courier, mo=
+naco, monospace, sans-serif;font-size:16px;"><div><font face=3D"verdana, he=
+lvetica, sans-serif">On the probate one, delete the 2nd sentence and change=
+ it to "In Massachusetts, if an estate is less than $25,000, not including =
+the value of a car, a simple process called "voluntary administration" can =
+be used."</font></div><div><font face=3D"verdana, helvetica, sans-serif"><b=
+r></font></div><div><font face=3D"verdana, helvetica, sans-serif">Under dee=
+ds, change from "<span style=3D"font-size:12.0pt;line-height:115%;font-fami=
+ly:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&q=
+uot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:EN-U=
+S;mso-bidi-language:AR-SA">It
+must be filed with your county clerk or tax assessor collector, must be
+witnessed by a legal official and its contents must be accurate. " to"&nbsp=
+; "It must be filed with the Registry of Deeds for the county that the prop=
+erty is located in and must be witnessed by a Notary Public."</span></font>=
+</div><div><font face=3D"verdana, helvetica, sans-serif"><span style=3D"fon=
+t-size:12.0pt;line-height:115%;font-family:&quot;Times New Roman&quot;,&quo=
+t;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-=
+language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><br></sp=
+an></font></div><div><font face=3D"verdana, helvetica, sans-serif"><span st=
+yle=3D"font-size: 12pt; line-height: 115%;">For the "homesteads" section, d=
+elete what you have and change it to this:</span></font></div><div><font fa=
+ce=3D"verdana, helvetica, sans-serif"><span style=3D"font-size: 12pt; line-=
+height: 115%;"><br></span></font></div><div><font face=3D"verdana, helvetic=
+a, sans-serif"><span style=3D"font-size: 12pt; line-height: 115%;">"A homes=
+tead is a legal document that is filed in the Registry of Deeds to protect =
+the home in which you live from claims by creditors.&nbsp; It can protect t=
+he value of real estate up to $500,000."&nbsp; Take out the whole next sect=
+ion about "Property Taxes" because I don't think it applies in Mass.</span>=
+</font></div><div><font face=3D"verdana, helvetica, sans-serif"><span style=
+=3D"font-size: 12pt; line-height: 115%;"><br></span></font></div><div><font=
+ face=3D"verdana, helvetica, sans-serif"><span style=3D"font-size: 12pt; li=
+ne-height: 115%;">Also, take out the whole Civil Litigation part because I =
+don't like it.&nbsp; lol</span></font></div><div><font face=3D"verdana, hel=
+vetica, sans-serif"><span style=3D"font-size: 12pt; line-height: 115%;"><br=
+></span></font></div><div><font face=3D"verdana, helvetica, sans-serif"><sp=
+an style=3D"font-size: 12pt; line-height: 115%;">I did buy the domain name =
+from the company that you told me to get it from and I think my password is=
+ salsa1957 (may have a capital S)--I use the same password for everything.<=
+/span></font></div><div><font face=3D"verdana, helvetica, sans-serif"><span=
+ style=3D"font-size: 12pt; line-height: 115%;"><br></span></font></div><div=
+><font face=3D"verdana, helvetica, sans-serif"><span style=3D"font-size: 12=
+pt; line-height: 115%;">I hope you have a very nice Christmas.&nbsp; I appr=
+eciate all the work you have been doing and when we put it up I want to ann=
+ounce it on Facebook so people will look at it and I want to mention you as=
+ the web designer so maybe you can get some work, if that's ok with you.</s=
+pan></font></div><div><font face=3D"verdana, helvetica, sans-serif"><span s=
+tyle=3D"font-size: 12pt; line-height: 115%;"><br></span></font></div><div><=
+font face=3D"verdana, helvetica, sans-serif"><span style=3D"font-size: 12pt=
+; line-height: 115%;">Liz</span></font></div></div></body></html>
+------=_Part_3080832_2038377909.1514049299895--
